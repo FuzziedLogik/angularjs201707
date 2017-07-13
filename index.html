@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="no-js" ng-app> 
+<html class="no-js" ng-app="demoapp"> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-messages/angular-messages.min.js"></script>
+        <script src="app/app.module.js"></script>
+        <script src="app/users/users.module.js"></script>
+        <script src="app/users/user-form/user-form.component.js"></script>
+
     </head>
     <body>
-test
-        {{1+ 2}}
+        <user-form></user-form>
     </body>
 </html>

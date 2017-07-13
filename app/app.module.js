@@ -1,0 +1,1 @@
+angular.module('demoapp', ['users', 'ngMessages']);

@@ -515,9 +515,16 @@
       "id": 101
     },
     {
-      "name": "b",
-      "email": "b@test.com",
-      "id": 102
+      "id": 102,
+      "name": "Roger Troutman",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/felipenogs/128.jpg",
+      "email": "Roger_Troutman@hotmail.com"
+    },
+    {
+      "name": "Johnathan Doe",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/tonystubblebine/128.jpg",
+      "email": "Johnathan_Doe@hotmail.com",
+      "id": 103
     }
   ]
 }

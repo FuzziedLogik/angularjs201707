@@ -1,0 +1,9 @@
+PUT http://localhost:4000/users/102 HTTP/1.1
+content-type: application/json
+
+{
+      "id": 102,
+      "name": "Roger Troutman",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/felipenogs/128.jpg",
+      "email": "Roger_Troutman@hotmail.com"
+}

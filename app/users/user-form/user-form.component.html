@@ -1,0 +1,18 @@
+<form name="$ctrl.userForm" novalidate ng-submit="$ctrl.save()">
+    <input type="text" name="namecontrol" ng-model="$ctrl.user.name" 
+    required minlength="3">    
+    <button type="submit" ng-disabled="$ctrl.userForm.namecontrol.$invalid" class="btn btn-large btn-block btn-default">Save</button>
+    <div ng-messages="$ctrl.userForm.namecontrol.$dirty && 
+                    $ctrl.userForm.namecontrol.$touched &&
+                    $ctrl.userForm.namecontrol.$error">
+        <p ng-message="required">Username is required.</p>
+        <p ng-message="minlength">Username must be at least 3 characters.</p>
+    </div>
+
+</form>
+
+
+
+<pre>
+    {{$ctrl.userForm | json}}
+</pre>

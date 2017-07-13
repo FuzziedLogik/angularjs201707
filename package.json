@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.5",
+    "angular-messages": "^1.6.5",
     "json-server": "^0.11.2"
   },
   "devDependencies": {
